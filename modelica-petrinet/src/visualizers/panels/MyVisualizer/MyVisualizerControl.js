@@ -271,7 +271,7 @@ define([
         var pthis = this;
         this.$btnModelReset = toolBar.addButton({
             title: 'Reset the model',
-            icon: 'glyphicon glyphicon-circle-arrow-left',
+            icon: 'glyphicon glyphicon-stop',
             clickFn: function () {
                 //=====================================
                 // run server plugin
@@ -287,7 +287,7 @@ define([
         this._toolbarInitialized = true;
         this.$btnModelClassify = toolBar.addButton({
             title: 'Classify the model',
-            icon: 'glyphicon glyphicon-circle-arrow-right',
+            icon: 'glyphicon glyphicon-ok',
             clickFn: function () {
                 //=====================================
                 // run server plugin
