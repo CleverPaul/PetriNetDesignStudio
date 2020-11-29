@@ -1,0 +1,8 @@
+[
+  {
+    "id": "MyVisualizer",
+    "title": "MyVisualizer",
+    "panel": "panels/MyVisualizer/MyVisualizerPanel",
+    "DEBUG_ONLY": false
+  }
+]

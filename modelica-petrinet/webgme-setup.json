@@ -1,0 +1,29 @@
+{
+  "components": {
+    "seeds": {
+      "Modelica": {
+        "src": "src/seeds/Modelica"
+      }
+    },
+    "plugins": {
+      "ModelicaCodeGenerator": {
+        "src": "src/plugins/ModelicaCodeGenerator",
+        "test": "test/plugins/ModelicaCodeGenerator"
+      }
+    },
+    "visualizers": {
+      "MyVisualizer": {
+        "src": "panels/MyVisualizer/MyVisualizerPanel",
+        "title": "MyVisualizer",
+        "panel": "src/visualizers/panels/MyVisualizer",
+        "secondary": false,
+        "widget": "src/visualizers/widgets/MyVisualizer"
+      }
+    }
+  },
+  "dependencies": {
+    "seeds": {},
+    "plugins": {},
+    "visualizers": {}
+  }
+}
